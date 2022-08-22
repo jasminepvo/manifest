@@ -55,6 +55,9 @@ img {
 	display: block;
 	margin: auto;
 }
+.quote {
+	font-style: italic;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -62,6 +65,8 @@ img {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************
+
+
 /* On mobile, please make all sections stack  */
 /* @media all and (max-width: 390px) {
   main section,
