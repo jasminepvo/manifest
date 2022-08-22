@@ -1,4 +1,4 @@
-# My Awesome Project
+# Manifest Inspiration
 
 Hi! I decided to create a place where you can come to find inspiration to manifest.. whether it's a quote, future dog or dream car.
 
@@ -14,6 +14,8 @@ This was created using plain HTML, CSS and vanilla JS. I tested the API's in Pos
 💬 [Inspiration API](https://api.goprogram.ai/inspiration/docs/)<br>
 🐶 [The Dog API](https://thedogapi.com/)<br>
 🚗 [Forza API](https://docs.forza-api.tk/)<br>
+<br>
+Build time: 01h02m20s
 
 ## Optimizations
 
