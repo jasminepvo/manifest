@@ -30,3 +30,20 @@ function getDog() {
 			console.log(`error ${err}`);
 		});
 }
+
+//Get car API - Forza
+document.querySelector(".btn-car").addEventListener("click", getCar);
+
+function getCar() {
+	const url = `https://forza-api.tk`;
+
+	fetch(url)
+		.then((res) => res.json()) // parse response as JSON
+		.then((response) => {
+			console.log(response);
+			document.querySelector(".car").src = response.image;
+		})
+		.catch((err) => {
+			console.log(`error ${err}`);
+		});
+}
