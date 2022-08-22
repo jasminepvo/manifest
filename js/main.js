@@ -8,7 +8,9 @@ function getQuote() {
 		.then((res) => res.json()) // parse response as JSON
 		.then((response) => {
 			console.log(response);
-			document.querySelector(".quote").innerText = response.quote;
+			document.querySelector(
+				".quote"
+			).innerText = `"${response.quote}"	-${response.author}`;
 		})
 		.catch((err) => {
 			console.log(`error ${err}`);
