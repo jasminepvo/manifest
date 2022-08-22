@@ -2,32 +2,34 @@
 
 Hi! I decided to create a place where you can come to find inspiration to manifest.. whether it's a quote, future dog or dream car.
 
-**Link to project:** https://jpv-manifest.netlify.app/
+**Link to project:** https://manifestinspiration.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+![](./assets/demo.gif)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, API's()
+**Tech used:** HTML, CSS, JavaScript, API's
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+This was created using plain HTML, CSS and vanilla JS. I tested the API's in Postman before implementing in my JavaScript. Testing allowed me to identify the specific properties to fetch from and manipulate into the DOM. The following API's used were: <br>
+💬 [Inspiration API](https://api.goprogram.ai/inspiration/docs/)<br>
+🐶 [The Dog API](https://thedogapi.com/)<br>
+🚗 [Forza API](https://docs.forza-api.tk/)<br>
 
 ## Optimizations
 
-_(optional)_
-
-You don't have to include this section but interviewers _love_ that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I would like to implement a feature where the user can randomize the dogs based on type of breed in case there is a specific one in mind.<br>
+I also used 3 separate functions to fetch the data per API so I'm wondering if it's possible to nest the fetch's or perhaps use another method. 🤔
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those _whoa this is awesome_ or _fuck yeah I did it!_ moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned how to search for API's, read API documentation, obtain a personalized API key and how that tracks requests per key, test in Postman to help identify specific properties or methods unique to my use case and most importantly, how fun it is to implement API's! I can't wait to discover more API's and the vast set of actions I can perform with one!
 
 ## Examples:
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/jasminepvo/etch-a-sketch
+**My Portfolio:** https://github.com/jasminepvo/portfolio
 
-**Twitter Battle:** https://github.com/jasminepvo/portfolio
+**Etch A Sketch:** https://github.com/jasminepvo/etch-a-sketch
 
-**Patch Panel:** https://github.com/jasminepvo/rock-paper-scissors
+**Rock Paper Scissors:** https://github.com/jasminepvo/rock-paper-scissors
