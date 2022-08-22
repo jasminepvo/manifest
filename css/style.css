@@ -1,51 +1,63 @@
 /* Box Model Hack */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 
 .clear {
-  clear: both;
+	clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 :root {
-  --font: "Roboto", "Source Sans Pro", "Roboto Condensed", sans-serif;
-  --main-grey: rgb(99, 116, 136);
-  --main-lightgrey: rgb(214, 218, 222);
-  --main-darkgrey: rgb(22, 29, 37);
-  --main-white: rgb(255, 255, 255);
+	--font: "Roboto", "Source Sans Pro", "Roboto Condensed", sans-serif;
+	--main-grey: rgb(99, 116, 136);
+	--main-lightgrey: rgb(214, 218, 222);
+	--main-darkgrey: rgb(22, 29, 37);
+	--main-white: rgb(255, 255, 255);
 }
 
 body {
-  /* border: 2px solid lightblue; */
-  font-family: var(--font);
+	/* border: 2px solid lightblue; */
+	font-family: var(--font);
+	background-color: seashell;
+	color: lightskyblue;
+	text-align: center;
 }
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 li {
-  list-style: none;
+	list-style: none;
+}
+button {
+	color: seashell;
+	background-color: lightskyblue;
+	border: none;
+	border-radius: 15px;
+	padding: 10px 40px;
+	margin: 5px;
+}
+img {
+	max-width: 500px;
+	max-height: 500px;
+	display: block;
+	margin: auto;
 }
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-}
-
-footer {
-}
 
 /******************************************
 /* ADDITIONAL STYLES
