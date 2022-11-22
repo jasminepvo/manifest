@@ -30,8 +30,8 @@ I learned how to search for API's, read API documentation, obtain a personalized
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**My Portfolio:** https://github.com/jasminepvo/portfolio
+**My Portfolio:** https://jasminesvisionary.com
 
-**Etch A Sketch:** https://github.com/jasminepvo/etch-a-sketch
+**Angelhope:** https://github.com/jasminepvo/angelhope
 
-**Rock Paper Scissors:** https://github.com/jasminepvo/rock-paper-scissors
+**Mood Journal:** https://github.com/jasminepvo/mood-colors
